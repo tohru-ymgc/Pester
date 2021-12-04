@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-results xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="nunit_schema_2.5.xsd" name="Pester" total="3" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2021-12-04" time="17:41:41">
+  <environment user="fuuta" machine-name="DESKTOP-D76QBGE" cwd="C:\Users\fuuta\GitHub\powershell\Pester\uiautomation" user-domain="DESKTOP-D76QBGE" platform="Microsoft Windows 10 Home|C:\WINDOWS|\Device\Harddisk0\Partition3" nunit-version="2.5.8.0" os-version="10.0.19044" clr-version="4.0.30319.42000" />
+  <culture-info current-culture="ja-JP" current-uiculture="ja-JP" />
+  <test-suite type="Powershell" name="Pester" executed="True" result="Success" success="True" time="6.7674" asserts="0">
+    <results>
+      <test-suite type="TestFixture" name="動作確認" executed="True" result="Success" success="True" time="2.0188" asserts="0" description="動作確認">
+        <results>
+          <test-case description="電卓ボタン1を押下すると、結果表示が1になること" name="動作確認.電卓ボタン1を押下すると、結果表示が1になること" time="2.0188" asserts="0" success="True" result="Success" executed="True" />
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="数字ボタンの動作確認" executed="True" result="Success" success="True" time="1.9101" asserts="0" description="数字ボタンの動作確認">
+        <results>
+          <test-case description="電卓ボタン2を押下すると、結果表示が2になること" name="数字ボタンの動作確認.電卓ボタン2を押下すると、結果表示が2になること" time="1.9101" asserts="0" success="True" result="Success" executed="True" />
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="add" executed="True" result="Success" success="True" time="2.8386" asserts="0" description="add">
+        <results>
+          <test-case description="2桁の足し算" name="add.2桁の足し算" time="2.8386" asserts="0" success="True" result="Success" executed="True" />
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>
